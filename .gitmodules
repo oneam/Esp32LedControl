@@ -1,0 +1,4 @@
+[submodule "LedControl/SwiftCoAP"]
+	path = LedControl/SwiftCoAP
+	url = https://github.com/oneam/SwiftCoAP
+	branch = return-address
