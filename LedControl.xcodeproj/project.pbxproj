@@ -12,7 +12,6 @@
 		22B290691E4C9EB300CAB887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B290671E4C9EB300CAB887 /* Main.storyboard */; };
 		22B2906B1E4C9EB300CAB887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B2906A1E4C9EB300CAB887 /* Assets.xcassets */; };
 		22B2906E1E4C9EB300CAB887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B2906C1E4C9EB300CAB887 /* LaunchScreen.storyboard */; };
-		22B290761E52A5B600CAB887 /* SwiftCoAP_Library in Resources */ = {isa = PBXBuildFile; fileRef = 22B290751E52A5B600CAB887 /* SwiftCoAP_Library */; };
 		22C3C67F1E63422300DDBD67 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3C67B1E63422300DDBD67 /* GCDAsyncUdpSocket.m */; };
 		22C3C6801E63422300DDBD67 /* SCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3C67C1E63422300DDBD67 /* SCClient.swift */; };
 		22C3C6811E63422300DDBD67 /* SCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3C67D1E63422300DDBD67 /* SCMessage.swift */; };
@@ -27,12 +26,11 @@
 		22B2906A1E4C9EB300CAB887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B2906D1E4C9EB300CAB887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B2906F1E4C9EB300CAB887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22B290751E52A5B600CAB887 /* SwiftCoAP_Library */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftCoAP_Library; path = /Users/sam/dev/SwiftCoAP/SwiftCoAP_Library; sourceTree = "<absolute>"; };
-		22C3C67A1E63422300DDBD67 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = SwiftCoAP/SwiftCoAP_Library/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		22C3C67B1E63422300DDBD67 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = SwiftCoAP/SwiftCoAP_Library/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		22C3C67C1E63422300DDBD67 /* SCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCClient.swift; path = SwiftCoAP/SwiftCoAP_Library/SCClient.swift; sourceTree = "<group>"; };
-		22C3C67D1E63422300DDBD67 /* SCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCMessage.swift; path = SwiftCoAP/SwiftCoAP_Library/SCMessage.swift; sourceTree = "<group>"; };
-		22C3C67E1E63422300DDBD67 /* SCServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCServer.swift; path = SwiftCoAP/SwiftCoAP_Library/SCServer.swift; sourceTree = "<group>"; };
+		22C3C67A1E63422300DDBD67 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		22C3C67B1E63422300DDBD67 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		22C3C67C1E63422300DDBD67 /* SCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCClient.swift; sourceTree = "<group>"; };
+		22C3C67D1E63422300DDBD67 /* SCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCMessage.swift; sourceTree = "<group>"; };
+		22C3C67E1E63422300DDBD67 /* SCServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCServer.swift; sourceTree = "<group>"; };
 		22C3C6831E63430C00DDBD67 /* LedControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LedControl-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +86,7 @@
 				22C3C67E1E63422300DDBD67 /* SCServer.swift */,
 			);
 			name = SwiftCoAP_Library;
+			path = SwiftCoAP/SwiftCoAP_Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +121,6 @@
 				TargetAttributes = {
 					22B2905F1E4C9EB200CAB887 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4TLZR6CVL6;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -152,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B2906E1E4C9EB300CAB887 /* LaunchScreen.storyboard in Resources */,
-				22B290761E52A5B600CAB887 /* SwiftCoAP_Library in Resources */,
 				22B2906B1E4C9EB300CAB887 /* Assets.xcassets in Resources */,
 				22B290691E4C9EB300CAB887 /* Main.storyboard in Resources */,
 			);
@@ -291,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4TLZR6CVL6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Luceva.net.LedControl;
@@ -308,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4TLZR6CVL6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Luceva.net.LedControl;
